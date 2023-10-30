@@ -1,10 +1,14 @@
 # SyncthingUpgradeServer
+## use:
+
 mkdir dl
-copy sha256sum.txt.asc sha1sum.txt.asc syncthing-windows-amd64-v1.26.0-rc.2.zip syncthing-linux-amd64-v1.26.0-rc.2.tar.gz ... into "dl"
+
+copy sha256sum.txt.asc sha1sum.txt.asc syncthing-windows-amd64-v1.26.0-rc.2.zip syncthing-linux-amd64-v1.26.0-rc.2.tar.gz  ...  into "dl"
+
 run
 
 
-params:
+## params:
   - string
         file dir (default "./dl")
   -listen string
