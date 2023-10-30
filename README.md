@@ -9,9 +9,14 @@ run
 
 
 ## params:
-  - string
-        file dir (default "./dl")
-  -listen string
-        http listen (default "0.0.0.0:8080")
-  -url string
-        download url (default "http://127.0.0.1:8080")
+-dir string
+
+file dir (default "./dl")
+  
+-listen string
+
+http listen (default "0.0.0.0:8080")
+        
+-url string
+
+download url (default "http://127.0.0.1:8080")
